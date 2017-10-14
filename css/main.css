@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  background-size: cover;
+}
+
+@media screen and (min-width: 700px) {
+.container-fluid {
+  width: 650px;
+  }
+}
+
+.container-fluid {
+  margin-top: 30px;
+  padding: 10px;
+}
+ 
+.jumbotron {
+   opacity:0.8;
+   margin: 0 auto;
+}
+
+#temp, #temp_c, #summary {
+  text-align: center;
+}
+
+.footer {
+  font-size: 9px;
+  padding: 20px;
+}
