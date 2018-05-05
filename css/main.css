@@ -1,29 +1,45 @@
 body {
   background-color: black;
   background-size: cover;
-}
-
-@media screen and (min-width: 700px) {
-.container-fluid {
-  width: 650px;
-  }
+  overflow: hidden;
 }
 
 .container-fluid {
   margin-top: 30px;
   padding: 10px;
 }
- 
+
 .jumbotron {
-   opacity:0.8;
-   margin: 0 auto;
+ opacity:0.8;
+ margin: 0 auto;
+ box-shadow: inset 0 0 25px 5px rgba(0,0,0,0.2);
 }
 
 #temp, #temp_c, #summary {
   text-align: center;
 }
 
+#temp h2 {
+  margin-top: 0.7em;
+}
+
 .footer {
   font-size: 9px;
   padding: 20px;
+}
+
+@media screen and (min-width: 300px) {
+  .jumbotron h1 {
+    font-size: 2em;
+  }
+  #temp h2 {
+    font-size: 1.5em;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+  .container-fluid {
+    width: 650px;
+  }
 }
