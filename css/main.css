@@ -42,4 +42,10 @@ body {
   .container-fluid {
     width: 650px;
   }
+  .jumbotron h1 {
+    font-size: 2.5em;
+  }
+  #temp h2 {
+    font-size: 2em;
+  }
 }
